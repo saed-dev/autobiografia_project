@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos Eduardo Júnior — Autobiografia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ── Barra de progresso de leitura ── -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- ══════════════════════════════════
+         HEADER FIXO
+    ══════════════════════════════════ -->
+    <header id="siteHeader">
+        <div class="header-inner">
+            <a href="#inic" class="logo">S · E · J</a>
+
+            <nav class="desktop-nav">
+                <a href="#metas">Metas</a>
+                <a href="#trajetoria">Trajectória</a>
+                <a href="#gostos">Gostos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu mobile overlay -->
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+        <a href="#metas">Metas</a>
+        <a href="#trajetoria">Trajectória</a>
+        <a href="#gostos">Gostos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+
+        <!-- ══════════════════════════════════
+             SECÇÃO 01 — HERO SLIDESHOW
+             Coloca as tuas imagens na pasta
+             autobg_imgs/ com os nomes:
+               img1.jpg, img2.jpg, img3.jpg
+        ══════════════════════════════════ -->
+        <section class="hero" id="inic" aria-label="Apresentação">
+
+            <div class="slides-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="slide active"
+                     style="background-image: url('autobg_imgs/img1.jpg')">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">Bem-vindo</span>
+                        <h2 class="slide-title">
+                            Filho de Deus,<br>
+                            <em>Construtor de Futuros</em>
+                        </h2>
+                        <p class="slide-text">
+                            Chamo-me <strong>Santos Eduardo Júnior</strong>,
+                            um aspirante a um grande Engenheiro de Software,
+                            e filho de Deus por meio de Jesus.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide"
+                     style="background-image: url('autobg_imgs/img2.jpg')">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">Origem</span>
+                        <h2 class="slide-title">
+                            Nascido para<br>
+                            <em>Fazer a Diferença</em>
+                        </h2>
+                        <p class="slide-text">
+                            Nasci no dia <strong>15 de Outubro de 2005</strong>,
+                            em Moçambique — com um propósito que vai
+                            além das telas e do código.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide"
+                     style="background-image: url('autobg_imgs/img3.jpg')">
+                    <div class="slide-overlay"></div>
+                    <div class="slide-content">
+                        <span class="slide-tag">Família</span>
+                        <h2 class="slide-title">
+                            Raízes que<br>
+                            <em>Formam o Carácter</em>
+                        </h2>
+                        <p class="slide-text">
+                            Sou filho de <strong>Graça Chico João</strong>
+                            e <strong>Eduardo Niquicene Cherene</strong>
+                            — filho de professores que me ensinaram
+                            o valor do conhecimento.
+                        </p>
+                    </div>
+                </div>
+
+            </div><!-- /slides-wrapper -->
+
+            <!-- Pontos de navegação -->
+            <div class="hero-dots" role="group" aria-label="Navegação dos slides">
+                <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                <button class="dot"        data-index="1" aria-label="Slide 2"></button>
+                <button class="dot"        data-index="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Indicador de scroll -->
+            <div class="scroll-hint" aria-hidden="true">
+                <span>Explorar</span>
+                <div class="scroll-arrow"></div>
+            </div>
+
+        </section>
+        <!-- /HERO -->
+
+
+        <!-- ══════════════════════════════════
+             SECÇÃO 02 — METAS
+        ══════════════════════════════════ -->
+        <section class="sec02 reveal-section" id="metas">
+            <h2 class="section-title">Minhas Metas</h2>
+
+            <div class="cards-grid">
+
+                <article class="meta-card reveal-card">
+                    <div class="card-icon">⟨/⟩</div>
+                    <h3>Engenheiro de Software</h3>
+                    <p>O meu maior desejo é de me tornar um engenheiro de Software muito
+                    profissional, igual aos engenheiros da Google. Pois tenho esta ambição,
+                    porque eu tenho em mim mesmo uma coisa: eu tenho que ser melhor
+                    naquilo que eu faço para o Meu SENHOR.</p>
+                </article>
+
+                <article class="meta-card reveal-card">
+                    <div class="card-icon">◈</div>
+                    <h3>Empresário</h3>
+                    <p>O meu desejo é de me tornar um grande empresário, quer no sector
+                    das tecnologias, saúde, energético, mineiro, agrário, pecuário e
+                    imobiliário. Mas desejo tudo isso no meu SENHOR e conforme a sua
+                    vontade, para que o nome dele seja Glorificado.</p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ══════════════════════════════════
+             SECÇÃO 03 — TRAJECTÓRIA (Timeline)
+        ══════════════════════════════════ -->
+        <section class="sec03 reveal-section" id="trajetoria">
+            <h2 class="section-title">Minha Trajectória</h2>
+
+            <div class="timeline">
+
+                <article class="timeline-item reveal-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">Ensino Primário</span>
+                        <h3>Escola Primária de Munhava Central</h3>
+                        <p>Nesta fase, passei da primeira até à sétima classe. Não tenho
+                        muitas memórias a respeito daquilo que eu passei lá naquele
+                        período, mas foi uma boa fase.</p>
+                    </div>
+                </article>
+
+                <article class="timeline-item reveal-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">Ensino Secundário</span>
+                        <h3>Escola de Nossa Senhora de Fátima</h3>
+                        <p>Este foi o período mais complexo, mas foi onde me aconteceram
+                        as melhores coisas: conhecer a Jesus e saber qual era a minha
+                        vocação. Conheci muitas pessoas que forjaram o meu carácter,
+                        e amigos que levarei para a vida.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ══════════════════════════════════
+             SECÇÃO 04 — GOSTOS
+        ══════════════════════════════════ -->
+        <section class="sec04 reveal-section" id="gostos">
+            <h2 class="section-title">Meus Gostos</h2>
+
+            <div class="gosto-list">
+
+                <article class="gosto-item reveal-card">
+                    <div class="gosto-img placeholder-img">
+                        <span>Imagem de Introdução</span>
+                    </div>
+                    <div class="gosto-text">
+                        <h3>✝&ensp;Buscar a Deus</h3>
+                        <p><strong>Buscar a Deus</strong> é a coisa que mais me completa, pois
+                        isso não se trata de apenas um hobby, mas de comunhão e intimidade
+                        com aquele que criou os céus e a terra, e tudo que nele há. Posso
+                        dizer que ele é o meu melhor amigo.</p>
+                    </div>
+                </article>
+
+                <article class="gosto-item reveal-card reverse">
+                    <div class="gosto-img placeholder-img">
+                        <span>Imagem de Introdução</span>
+                    </div>
+                    <div class="gosto-text">
+                        <h3>⟨/⟩&ensp;Programação</h3>
+                        <p><strong>Programação</strong> é a minha segunda maior paixão da
+                        minha vida. É aquilo que satisfaz aquela parte de homem relacionado
+                        com o prazer obtido a partir do trabalho. Ser um grande expert nisso
+                        é uma coisa indispensável — quero ser um
+                        <em>rockstar em programação</em>.</p>
+                    </div>
+                </article>
+
+                <article class="gosto-item reveal-card">
+                    <div class="gosto-img placeholder-img">
+                        <span>Imagem de Introdução</span>
+                    </div>
+                    <div class="gosto-text">
+                        <h3>♪&ensp;Música</h3>
+                        <p><strong>Música</strong>, principalmente aquelas que louvam ao
+                        SENHOR, isso me é muito agradável. Estas músicas lembram-me das
+                        suas maravilhas, da sua obra em minha vida e da sua graça. Sempre
+                        que estou programando, ouço estas músicas, pois isso me conecta
+                        com meu Deus.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- ══════════════════════════════════
+             CONTACTO
+        ══════════════════════════════════ -->
+        <aside class="contacto reveal-section">
+            <h3>Entre em contacto comigo</h3>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">WhatsApp</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p class="final">
+            Site desenvolvido por <strong>Santos Eduardo Júnior</strong>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
